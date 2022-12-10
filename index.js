@@ -29,7 +29,6 @@ class App extends React.Component{
         return(
             <>
                 <div id="drum-machine">
-                    <div id="display"></div>
                     <DrumPad name="Q" audio="heater-1" url={heater1}/>
                     <DrumPad name="W" audio="heater-2" url={heater2}/>
                     <DrumPad name="E" audio="heater-3" url={heater3}/>
@@ -40,6 +39,7 @@ class App extends React.Component{
                     <DrumPad name="X" audio="kick" url={kick}/>
                     <DrumPad name="C" audio="closed-hh" url={closedhh}/>
                 </div>
+                <div id="display"></div>
             </>
         )
     }
